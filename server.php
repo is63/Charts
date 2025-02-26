@@ -3,11 +3,11 @@
 require __DIR__ . '/vendor/autoload.php';
 
 $pusher = new Pusher\Pusher(
-    "91a5b084637dc4f1bda1", // Replace with 'key' from dashboard
-    "cedf3a9f143831ddbf01", // Replace with 'secret' from dashboard
-    "1948253", // Replace with 'app_id' from dashboard
+    "xx", // Replace with 'key' from dashboard
+    "xx", // Replace with 'secret' from dashboard
+    "xx", // Replace with 'app_id' from dashboard
     array(
-        'cluster' => 'eu' // Replace with 'cluster' from dashboard
+        'cluster' => 'xx' // Replace with 'cluster' from dashboard
     )
 );
 // Trigger a new random event every second. In your application,
